@@ -18,8 +18,23 @@ body{
 }
 .Start{
     margin: auto;
-    font-size: 25px;
+    font-size: 2em;
+    width: 9em;
     text-align: center;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    animation: typing 2.5s steps(9, end), blink-caret .75s step-end infinite;
+    overflow: hidden;
+}
+/* 打印效果 */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 9em; }
+}
+  /* 光标闪啊闪 */
+@keyframes blink-caret {
+    from, to { box-shadow: 1px 0 0 0 transparent; }
+    50% { box-shadow: 1px 0 0 0; }
 }
 .Author {
     position: absolute;
