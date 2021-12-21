@@ -26,12 +26,12 @@ body{
     animation: typing 2.5s steps(9, end), blink-caret .75s step-end infinite;
     overflow: hidden;
 }
-/* 打印效果 */
+
 @keyframes typing {
     from { width: 0; }
     to { width: 9em; }
 }
-  /* 光标闪啊闪 */
+
 @keyframes blink-caret {
     from, to { box-shadow: 1px 0 0 0 transparent; }
     50% { box-shadow: 1px 0 0 0; }
@@ -41,3 +41,10 @@ body{
     bottom: 0px;
     right: 0px;
 }
+
+/* Plot page */
+
+.Scripts {
+    font-size: 2.5em;
+}
+
