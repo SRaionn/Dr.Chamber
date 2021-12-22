@@ -1,2 +1,3 @@
 Dr.Chamber
-https://github.com/CYOuO/Dr.Chamber/settings
+https://cyouo.github.io/Dr.Chamber/
+
