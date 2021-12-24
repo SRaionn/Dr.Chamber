@@ -1,47 +1,36 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-color: #342912;
-    color: #CDBD9E;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    user-select: none;
-}
-.Homepage{
-    margin: auto;
-    position: absolute;
-    transform: translate(105%, 90%);
-}
-.Homepage img{
-    width: auto;
-    transform: translate(-35%, 0%);
-}
-.Start{
-    font-size: 2em;
-    width: 9em;
-    text-align: center;
-    white-space: nowrap;
-    border-right: 2px solid transparent;
-    animation: typing 2.5s steps(9, end), blink-caret .75s step-end infinite;
-    overflow: hidden;
-}
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Language" content="zh-Hant" />
+    <meta name="google" content="notranslate" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>紅樓。夢</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="image/Author_logo.png">
+    <!-- 圖標放作者Logo的話會因為線條太細而看不到 -->
+</head>
 
-@keyframes typing {
-    from { width: 0; }
-    to { width: 9em; }
-}
+<body>
+<div class="Homepage">
 
-@keyframes blink-caret {
-    from, to { box-shadow: 1px 0 0 0 transparent; }
-    50% { box-shadow: 1px 0 0 0; }
-}
-.Author {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-}
+    <div class="Logo">
+        <a href="plot.html">
+            <img src="image/Tittle.png" alt="Logo">
+        </a>
+    </div>
+
+    <div class="Start">
+        點擊圖片開始遊戲！
+    </div>
+
+</div>
+
+    <div class="Author">
+        <img src="image/Author_logo.png" alt="Author logo">
+    </div>
+
 
 /* Plot page */
 
