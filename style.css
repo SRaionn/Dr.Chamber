@@ -35,8 +35,8 @@ body{
 }
 
 @keyframes blink-caret {
-    from, to { box-shadow: 2px 0 0 0 transparent; }
-    50% { box-shadow: 2px 0 0 0; }
+    from, to { box-shadow: 2px 0px transparent; }
+    50% { box-shadow: 2px 0px; }
 }
 .Author {
     position: absolute;
