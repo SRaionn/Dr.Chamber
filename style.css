@@ -23,7 +23,6 @@ body{
     width: 9em;
     text-align: center;
     white-space: nowrap;
-    border-right: 2px solid transparent;
     animation: typing 2.5s steps(9, end), blink-caret .75s step-end infinite;
     overflow: hidden;
 }
