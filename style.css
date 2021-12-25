@@ -12,7 +12,6 @@ body{
 .Homepage{
     margin: auto;
     position: absolute;
-    text-align: center;
     transform: translate(90%, 50%);
 }
 .Homepage img{
@@ -22,7 +21,7 @@ body{
 .Start{
     font-size: 2em;
     width: 9em;
-    vertical-align: middle;
+    text-align: center;
     white-space: nowrap;
     box-shadow: 2px 0px #444;
     animation: typing 2.5s steps(9, end), blink-caret .75s step-end infinite;
@@ -40,8 +39,8 @@ body{
 }
 .Author {
     position: absolute;
-    bottom: -70px;
-    right: -100px;
+    bottom: 0px;
+    right: 0px;
 }
 
 /* Plot page */
