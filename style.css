@@ -12,7 +12,7 @@ body{
 .Homepage{
     margin: auto;
     position: absolute;
-    transform: translate(90%, 50%);
+    transform: translate(100%, 50%);
 }
 .Homepage img{
     width: auto;
