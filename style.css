@@ -12,7 +12,8 @@ body{
 .Homepage{
     margin: auto;
     position: absolute;
-    transform: translate(102.5%, 90%);
+    text-align: center;
+    transform: translate(102.5%, 44.505%);
 }
 .Homepage img{
     width: auto;
@@ -21,7 +22,7 @@ body{
 .Start{
     font-size: 2em;
     width: 9em;
-    text-align: center;
+    vertical-align: middle;
     white-space: nowrap;
     box-shadow: 2px 0px #444;
     animation: typing 2.5s steps(9, end), blink-caret .75s step-end infinite;
