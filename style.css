@@ -13,7 +13,7 @@ body{
     margin: auto;
     position: absolute;
     text-align: center;
-    transform: translate(102.5%, 44.505%);
+    transform: translate(90%, 50%);
 }
 .Homepage img{
     width: auto;
@@ -40,8 +40,8 @@ body{
 }
 .Author {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: -70px;
+    right: -100px;
 }
 
 /* Plot page */
