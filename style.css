@@ -67,3 +67,47 @@ body{
 .display{
     display: none;
 }
+
+/* game */
+.Logo{
+    width: 100%;
+    height: 10em;
+}
+.Logo2{
+height: 15%;
+position: absolute;
+left: 50%;
+transform: translate(-50%, -1%);
+}
+
+.game{
+width: 58.25%;
+height: 50em;
+text-align: center;
+float:left;
+background-color: #473d26;
+border-left: 3em #e0dbd1 solid;
+border-right:3em #e0dbd1 solid;
+}
+
+.game_img{
+    /* width: 100%; */
+    height: 100%;
+}
+
+.instruction{
+width: 35%;
+height: 50em;
+text-align: left;
+float:right;
+background-color: #473d26;
+border-right:3em #e0dbd1 solid;
+}
+
+.footer{
+
+    width: 100%;
+    /* text-aligns: center; */
+    background-color: #E0C09A;
+
+}
