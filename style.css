@@ -12,16 +12,16 @@ body{
 .Homepage{
     margin: auto;
     position: absolute;
-    transform: translate(100%, 50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.Homepage img{
-    width: auto;
-    transform: translate(-32.5%, 0%);
-}
+
 .Start{
+    position: absolute;
+    left: 30%;
     font-size: 2em;
     width: 9em;
-    text-align: center;
     white-space: nowrap;
     box-shadow: 2px 0px #444;
     animation: typing 2.5s steps(9, end), blink-caret .75s step-end infinite;
@@ -54,12 +54,16 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.next, .next2{
+.next{
     width: 7%;
     position: absolute;
     left: 50%;
 }
-.next:hover, .next2:hover{
+.next:hover{
     transform: scale(1.05);
     cursor: pointer;
+}
+
+.p2{
+    display: none;
 }
