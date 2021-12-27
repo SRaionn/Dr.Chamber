@@ -69,45 +69,73 @@ body{
 }
 
 /* game */
+.page{
+    height: 1000px;
+    margin: auto;
+    
+}
 .Logo{
     width: 100%;
-    height: 10em;
+    height: 13%;
+    border-bottom:#CDBD9E 0.5em  ;
 }
 .Logo2{
-height: 15%;
+height: 13%;
 position: absolute;
 left: 50%;
 transform: translate(-50%, -1%);
 }
 
 .game{
-width: 58.25%;
-height: 50em;
+
+width: 60%;
+height: 73%;
 text-align: center;
 float:left;
-background-color: #473d26;
-border-left: 3em #e0dbd1 solid;
-border-right:3em #e0dbd1 solid;
+/* background-color: #473d26; */
+border-right: #473d26 0.5em solid;
+/* padding: 0 3em ; */
+/* background-color:rgb(170, 143, 113) */
+background-image: url("image/table.jpg");
 }
 
 .game_img{
     /* width: 100%; */
-    height: 100%;
+    height: 95%;
 }
 
 .instruction{
-width: 35%;
-height: 50em;
+width: 38%;
+height: 73%;
 text-align: left;
 float:right;
-background-color: #473d26;
-border-right:3em #e0dbd1 solid;
+font-size: 3em;
+/* border: #473d26 0.5em solid; */
 }
 
 .footer{
-
+    clear:both;
+    bottom:1%;
     width: 100%;
-    /* text-aligns: center; */
-    background-color: #E0C09A;
-
+    height: 7%;
+    text-align: center;
+    border-top: #473d26 0.25em solid;
+    /* background-color: #462d2d; */
+    position: fixed;
+    font-size: 2.5em;
+    color: #cdbd9ed0;
+}
+.input{
+    font-size: 1em;
+    /* height: 5em; */
+    caret-color: #691e1e; /* 指定色 */
+    outline-width: initial;
+    /* outline: none; 外框效果 */
+}
+.input2{
+    
+    font-size: 0.85em;
+    /* height: 5em; */
+    background-color: rgb(192, 96, 96);
+    
 }
