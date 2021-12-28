@@ -54,12 +54,12 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.next, .next2{
+.next .next2{
     width: 7%;
     position: absolute;
     left: 50%;
 }
-.next:hover, .next2:hover{
+.next:hover .next2:hover{
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -94,7 +94,7 @@ body{
     text-align: center;
     float:left;
     /* background-color: #473d26; */
-    border-right: #ce9942 0.2em solid;
+/*     border-right: #ce9942 0.2em solid; */
     /* margin: .3em ; */
     /* background-color:rgb(170, 143, 113) */
     background-image: url("image/table.jpg");
@@ -128,6 +128,7 @@ body{
     color: #cdbd9e;
 }
 form{
+    margin: .5em 0em 0em;
     height: 1.3em;
     display: flex;
 }
@@ -140,7 +141,7 @@ form{
     outline-width: initial;
     border: none;
     /* outline: none; 外框效果 */
-    
+}
 .input2{
     font-size: .5em;
     color: #cdbd9e;
