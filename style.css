@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: MingLiU, serif;
+    font-family: PMingLiU, serif;
     background-color: #342912;
     color: #CDBD9E;
     overflow-y: hidden;
@@ -142,6 +142,7 @@ body{
 }
 }
 .footer{
+    font-family: serif;
     clear:both;
     bottom:0%;
     width: 100%;
