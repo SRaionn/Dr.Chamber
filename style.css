@@ -97,10 +97,14 @@ body{
     text-align: center;
     float:left;
     background-image: url("image/table.jpg");
+    position: fixed;
 }
 
 .game_img{
+    width: auto;
     height: 95%;
+    margin: auto;
+    /* position: fixed; */
 }
 
 .instruction{
@@ -112,6 +116,32 @@ body{
     /* border: #473d26 0.5em solid; */
 }
 
+@media screen and (max-device-width: 1024px){
+    .game{
+    width: 60%;
+    height: 73%;
+    text-align: center;
+    float:left;
+    background-image: url("image/table.jpg");
+    position: fixed;
+}
+
+.game_img{
+    width: auto;
+    height: 74%;
+    margin: auto;
+    /* position: fixed; */
+}
+
+.instruction{
+    width: 38%;
+    height: 73%;
+    text-align: left;
+    float:right;
+    font-size: 2.25em;
+    /* border: #473d26 0.5em solid; */
+}
+}
 .footer{
     clear:both;
     bottom:0%;
