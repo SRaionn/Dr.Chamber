@@ -56,12 +56,12 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.next, .next2{
+.next, .next2, nest3{
     width: 7%;
     position: absolute;
     left: 50%;
 }
-.next:hover, .next2:hover{
+.next:hover, .next2:hover, nest3:hover{
     transform: scale(1.05);
     cursor: pointer;
 }
