@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Language" content="zh-Hant" />
+    <meta name="google" content="notranslate" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>紅樓。夢</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="image/Author_logo1.png">
+    <script src="plot.js"></script>
+    <!-- 圖標放作者Logo的話會因為線條太細而看不到 -->
+
+</head>
+<body>
+    <div class="page">
+      <div class="Logo"><img src="image/Tittle.png" class="Logo2" ></div>
+      <div class="game">
+          <a href="index.html">
+              <img src="image/新高山.png" class="game_img" >
+          </a>
+      </div>
+      <div class="instruction">
+          彰女在日治時代的教育非常注重身體素質，<br>
+          這個登山隊伍在踏上山途前更是透過了篩選而得，<br>
+          順帶一提，<br>
+          學姊們可是第一批登上玉山的學生呢！<br>
+          旁邊有幾個供人取用的紀念章，<br>
+          你將紀念章蓋完以後便走出校史館，<br>
+          到旁邊的小走廊稍作休憩，<br>
+          走廊上掛著學姊們巧奪天工的刺繡作品，<br>
+          走廊盡頭有一個鐘，<br>
+          聽老師說敲了成績會變好，<br>
+          一向不迷信的你不知為何地覺得自己和那口鐘特別有緣......<br>
+      </div>
+          <div class="footer">Copyright © 2021 Ohiya. All rights reserved.</div>
+    </div>
+    </body>
+    
+</html>
