@@ -132,13 +132,15 @@ form{
     display: flex;
 }
 .input{
-    font-size: 1em;
+    font-size: .75em;
+    text-align: center;
+    width: 40%;
     height: auto;
     caret-color: #342912; /* 指定色 */
     outline-width: initial;
     border: none;
     /* outline: none; 外框效果 */
-}
+    
 .input2{
     font-size: .5em;
     color: #cdbd9e;
