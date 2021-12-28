@@ -1,5 +1,5 @@
 function password(pwd) {
-  if (pwd == "妹尾音樂出版社") {
+  if (pwd == "4341034") {
     alert("真不愧是你呢");
     location.href = ".";
   } else {
