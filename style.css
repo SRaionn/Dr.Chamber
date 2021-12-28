@@ -68,7 +68,9 @@ body{
     display: none;
 }
 
+
 /* game */
+
 .page{
     height: 1000px;
     margin: auto;
@@ -80,23 +82,22 @@ body{
     border-bottom:#CDBD9E 0.5em  ;
 }
 .Logo2{
-height: 13%;
-position: absolute;
-left: 50%;
-transform: translate(-50%, -1%);
+    height: 13%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -1%);
 }
 
 .game{
-
-width: 60%;
-height: 73%;
-text-align: center;
-float:left;
-/* background-color: #473d26; */
-border-right: #473d26 0.5em solid;
-/* padding: 0 3em ; */
-/* background-color:rgb(170, 143, 113) */
-background-image: url("image/table.jpg");
+    width: 60%;
+    height: 73%;
+    text-align: center;
+    float:left;
+    /* background-color: #473d26; */
+    border-right: #ce9942 0.2em solid;
+    /* margin: .3em ; */
+    /* background-color:rgb(170, 143, 113) */
+    background-image: url("image/table.jpg");
 }
 
 .game_img{
@@ -105,37 +106,46 @@ background-image: url("image/table.jpg");
 }
 
 .instruction{
-width: 38%;
-height: 73%;
-text-align: left;
-float:right;
-font-size: 3em;
-/* border: #473d26 0.5em solid; */
+    width: 38%;
+    height: 73%;
+    text-align: left;
+    float:right;
+    font-size: 3em;
+    /* border: #473d26 0.5em solid; */
 }
 
 .footer{
     clear:both;
-    bottom:1%;
+    bottom:0%;
     width: 100%;
-    height: 7%;
+    height: 3%;
+    padding: .5em 0em 0em;
     text-align: center;
-    border-top: #473d26 0.25em solid;
+    /* border-top: #e0c09a .05em solid; */
     /* background-color: #462d2d; */
     position: fixed;
-    font-size: 2.5em;
-    color: #cdbd9ed0;
+    font-size: 1em;
+    color: #cdbd9e;
+}
+form{
+    height: 1.3em;
+    display: flex;
 }
 .input{
     font-size: 1em;
-    /* height: 5em; */
-    caret-color: #691e1e; /* 指定色 */
+    height: auto;
+    caret-color: #342912; /* 指定色 */
     outline-width: initial;
+    border: none;
     /* outline: none; 外框效果 */
 }
 .input2{
-    
-    font-size: 0.85em;
-    /* height: 5em; */
-    background-color: rgb(192, 96, 96);
+    font-size: .5em;
+    color: #cdbd9e;
+    height: auto;
+    margin: 0em .5em;
+    padding: .5em;
+    border: none;
+    background-color: #8c4545;
     
 }
