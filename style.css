@@ -4,16 +4,14 @@
 }
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif+TC&amp;display=swap")
 body{
-  font-family: 'Noto Serif TC', serif;
-}
-
-body{
+    font-family: 'Noto Serif TC', serif;
     background-color: #342912;
     color: #CDBD9E;
     overflow-y: hidden;
     overflow-x: hidden;
-    user-select: none;
+    user-select: none;  
 }
+
 .Homepage{
     margin: auto;
     position: absolute;
