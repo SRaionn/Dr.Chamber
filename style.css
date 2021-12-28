@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: font-family:MingLiU, serif;
+    font-family: MingLiU, serif;
     background-color: #342912;
     color: #CDBD9E;
     overflow-y: hidden;
@@ -111,7 +111,7 @@ body{
     height: 73%;
     text-align: left;
     float:right;
-    font-size: 3em;
+    font-size: 2.7em;
     /* border: #473d26 0.5em solid; */
 }
 
@@ -164,7 +164,6 @@ form{
     text-align: center;
     width: 40%;
     height: auto;
-    caret-color: #342912; /* 指定色 */
     outline-width: initial;
     border: none;
     /* outline: none; 外框效果 */
